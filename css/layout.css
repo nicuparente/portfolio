@@ -1,0 +1,8 @@
+@media only screen and (max-width: 940px){
+  .fa-bars{
+    display: block;
+  }
+  .main-nav ul {
+    display: none;
+  }
+}

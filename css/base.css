@@ -1,0 +1,26 @@
+
+body {
+  background-color: grey;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+nav{
+  background-color: yellow;
+}
+
+ul{
+  background-color: blue;
+}
+
+li{
+  color: white;
+}
+
+section{
+  background-color: black;
+}
+
+main{
+  margin-top: 0%;
+}
