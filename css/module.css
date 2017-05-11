@@ -31,6 +31,8 @@
 }
 
 .portfolio-container{
+  display: flex;
+  text-align: center;
   height: 600px;
   background-color: white;
 }
@@ -38,6 +40,10 @@
 .portfolio-container h1 {
   text-align: center;
   font-size: 4em;
+}
+
+.project-container{
+
 }
 
 .about-container{
@@ -48,11 +54,4 @@
 
 .about-container h1{
   font-size: 4em;
-}
-
-.project-template {
-  display: none;
-  width: 6em;
-  height: 6em;
-  background-color: red;
 }

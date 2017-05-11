@@ -1,5 +1,7 @@
 'use strict';
 
+var projects = [];
+
 function Project(rawProject){
   this.title = rawProject.title;
   this.date = rawProject.date;
@@ -8,7 +10,15 @@ function Project(rawProject){
 }
 
 Project.prototype.toHtml = function(){
-  var $portfolioContainer = $('.portfolio-container').
+  var projectRender = Handlebars.compile($('.project-template').html());
+  return projectRender(this);
+};
 
-  $portfolioContainer.append("")
-}
+
+rawData.forEach(function(projectRawData){
+  projects.push(new Project(projectRawData));
+});
+
+projects.forEach(function(project){
+  $('.portfolio-container').append(project.toHtml());
+});

@@ -11,6 +11,16 @@
 </head>
 <body>
 
+  <!-- Template For Project-->
+  <script class="project-template" type="text/x-handlebars-template">
+    <div class="project-container">
+      <h3><a href={{url}} class="project-name">{{name}}</a></h3>
+      <h5 class="project-date">{{date}}</h5>
+      <h4>Description</h4>
+      <p class="project-description-body">{{description}}</p>
+    </div>
+  </script>
+
   <nav class="main-nav">
     <div class="fa fa-bars"></div>
     <ul>
@@ -30,19 +40,13 @@
     </section>
 
     <section class="portfolio-container">
-      <h1>PORTFOLIO</h1>
-      <div class="project-template">
-        <h3><a href="#" class="project-name"></a></h3>
-        <h5 class="project-date"></h5>
-        <h4>Description</h4>
-        <p class="project-description-body">I do the things</p>
-      </div>
+      <h1 class="portfolio-heading">PORTFOLIO</h1>
+
     </section>
 
-    <section  class="about-container">
+    <section id="about" class="about-container">
       <h1>ABOUT</h1>
       <article class="about-article">
-
       </article>
     </section>
   </main>
@@ -52,6 +56,8 @@
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+  <script type="text/javascript" src="data/rawData.js"></script>
   <script type="text/javascript" src="js/project.js"></script>
   <script type="text/javascript" scr="js/main.js"></script>
 </body>
