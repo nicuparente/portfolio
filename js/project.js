@@ -6,3 +6,9 @@ function Project(rawProject){
   this.url = rawProject.url;
   this.description = rawProject.description;
 }
+
+Project.prototype.toHtml = function(){
+  var $portfolioContainer = $('.portfolio-container').
+
+  $portfolioContainer.append("")
+}

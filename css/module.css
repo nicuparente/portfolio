@@ -49,3 +49,10 @@
 .about-container h1{
   font-size: 4em;
 }
+
+.project-template {
+  display: none;
+  width: 6em;
+  height: 6em;
+  background-color: red;
+}
