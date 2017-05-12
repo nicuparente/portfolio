@@ -1,4 +1,21 @@
-nav a:hover,
-nav a:focus{
+nav a:hover, nav a:focus{
   color: #DDD;
+}
+
+.fa-bars:hover, .fa-bars:focus{
+  color: black;
+  background-color:  #ffffff;
+  border-radius: 1.5px;
+}
+
+nav.main-nav li a:hover, nav.main-nav li a:focus {
+  color:  black;
+  background-color:  #ffffff;
+  padding: .8vh;
+  border-radius: 1.5px;
+  font-weight: 900;
+}
+
+.brand:hover, .brand:focus{
+  transform: scale(1.125)
 }
