@@ -1,26 +1,25 @@
-
+*{
+  box-sizing: border-box;
+}
 body {
   background-color: grey;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
 
 }
-
-nav{
-  background-color: yellow;
+nav li{
+  display: inline;
+  padding: 10px 20px ;
+  font-size: 1.5em;
+  align-items: flex-end;
 }
 
-ul{
-  background-color: blue;
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+
 }
 
 li{
   color: white;
-}
-
-section{
-  background-color: black;
-}
-
-main{
-  margin-top: 0%;
 }
