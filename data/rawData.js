@@ -20,9 +20,4 @@ var rawData = [{
   date: "05-10-2017",
   url: "https://www.google.com",
   description: "Mock Project"
-},{
-  name: "Project 4",
-  date: "05-10-2017",
-  url: "https://www.google.com",
-  description: "Mock Project"
 }];

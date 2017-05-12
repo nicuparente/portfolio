@@ -1,15 +1,13 @@
 .main-nav ul{
   display: block;
   width: 100%;
-  padding: 2%;
+  color: white;
 }
 
-.main-nav li {
+.main-nav li{
   display: inline;
   padding: 10px 20px ;
   font-size: 2em;
-  text-decoration: none;
-
 }
 
 .fa-bars {
@@ -32,18 +30,28 @@
 
 .portfolio-container{
   display: flex;
-  text-align: center;
-  height: 600px;
+  align-content: space-around;
+  flex-wrap: wrap;
+  height: 40em;
+  width: 100%;
   background-color: white;
 }
 
-.portfolio-container h1 {
+.portfolio-heading {
   text-align: center;
+  font-weight:bolder;
+  width: 100%;
   font-size: 4em;
 }
 
 .project-container{
+  width: 200px;
+  height: 200px;
+  padding: .5% 1% ;
+  margin: 1%;
 
+  background-color: grey;
+  color: white;
 }
 
 .about-container{
