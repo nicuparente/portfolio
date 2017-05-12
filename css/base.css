@@ -4,15 +4,17 @@
 body {
   background-color: grey;
   font-family: 'Raleway', sans-serif;
-
 }
 nav li{
   display: inline;
   padding: 10px 20px ;
   font-size: 1.5em;
-  align-items: flex-end;
+
 }
 
+.img{
+  max-width: 100%;
+}
 nav a {
   text-decoration: none;
   color: white;
