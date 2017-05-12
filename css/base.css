@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: grey;
+  background-color: #5b759f;
   font-family: 'Raleway', sans-serif;
 }
 nav li{
@@ -15,6 +15,7 @@ nav li{
 .img{
   max-width: 100%;
 }
+
 nav a {
   text-decoration: none;
   color: white;
