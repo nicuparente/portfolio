@@ -42,16 +42,16 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 90vh;
+  height: 70vh;
   color: #FFF;
 }
 
 .hero-main-heading{
   position: relative;
-  top: 40vh;
-  font-size: 6.5vw;
+  top: 30vh;
+  font-size: 7vw;
   font-weight: 900;
-  width: 55vw;
+  width: 70vw;
   color: black;
   background-color: #fff;
   text-align: center;
@@ -63,24 +63,21 @@
 /*About Region*/
 .about-container{
   position: relative;
-  top: 5vh;
+  top: 15vh;
   margin: auto;
-  width: 95vw;
+  width: 85vw;
   height: 60%;
   color: #FFF;
   text-align: center;
   background-color: #2c579e;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 .about-heading{
-  position: relative;
-  background-color: #FFF;
-  top: 5vh;
-  color:black;
-  width: 30%;
-  font-size: 5vw;
-  font-weight: 800;
+  padding-top: 4vh;
+  color: #FFF;
+  font-size: 3em;
+  font-weight: 600;
   margin: auto;
 }
 
@@ -89,21 +86,22 @@
   color:black;
   margin-top: 10vh;
   text-align: justify;
-  margin-left: 3%;
   background-color: #FFF;
-  width: 70vw;
+  width: 60vw;
+  margin-left: 3%;
   padding: 1vw 1.5vh;
 }
 
 .connect-wme-nav{
-  margin-top: 6vh;
+  margin: .5vw 5vh;
 }
 /*Portfolio Region*/
 .portfolio-container{
-  display: block;
-  position: relative;
-  top: 6vh;
+  display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  top: 20vh;
   height: 70vh;
   width: 100%;
   background-color: #FFF;
@@ -117,8 +115,12 @@
 }
 
 .project-container{
-  width: 10em;
-  height: 10em;
+  display:block;
+  top: 5vh;
+  padding: 2vw 2vh;
+  margin: 1em;
+  width: 20%;
+  height: 40%;
   background-color: grey;
   color: #FFF;
 }
