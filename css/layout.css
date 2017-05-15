@@ -27,4 +27,8 @@
   .about-container ul li a {
     font-size: 1em;
   }
+  .project-container{
+    width: 33%;
+    height: 50%;
+  }
 }
