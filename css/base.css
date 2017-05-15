@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #5b759f;
+  background-color: #FFF;
   font-family: 'Raleway', sans-serif;
 }
 nav li{
@@ -25,4 +25,16 @@ nav a {
 
 li{
   color: white;
+}
+
+h1{
+  font-size: 4em;
+}
+
+h2{
+  font-size: 3em;
+}
+
+h3{
+  font-size: 2em;
 }

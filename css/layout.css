@@ -9,4 +9,22 @@
   .brand{
     display: none;
   }
+
+  .about-container{
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-article{
+    width: 80%;
+    margin: auto;
+    margin-top: 10vh;
+  }
+  .about-container h3{
+    font-size: 1.5em;
+  }
+
+  .about-container ul li a {
+    font-size: 1em;
+  }
 }
