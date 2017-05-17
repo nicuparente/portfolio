@@ -1,7 +1,5 @@
 'use strict';
 
-var projects = [];
-
 function Project(rawProject){
   this.name = rawProject.name;
   this.date = rawProject.date;
@@ -9,16 +7,31 @@ function Project(rawProject){
   this.description = rawProject.description;
 }
 
+Project.all = [];
+
 Project.prototype.toHtml = function(){
-  var projectRender = Handlebars.compile($('.project-template').html());
+  let projectRender = Handlebars.compile($('.project-template').html());
   return projectRender(this);
 };
 
-
-rawData.forEach(function(projectRawData){
-  projects.push(new Project(projectRawData));
-});
-
-projects.forEach(function(project){
-  $('.portfolio-container').append(project.toHtml());
-});
+Project.populateProjects = function(){
+  if(localStorage.projects){
+    JSON.parse(localStorage.projects).forEach(function(projectRawData){
+      Project.all.push(new Project(projectRawData));
+      $('.portfolio-container').append(Project.all[Project.all.length-1].toHtml());
+    });
+  }
+  else{
+    $.getJSON('data/allProjects.json').then(
+      function(data){
+        data.forEach(function(projectRawData){
+          Project.all.push(new Project(projectRawData));
+          $('.portfolio-container').append(Project.all[Project.all.length-1].toHtml());
+        });
+        localStorage.projects = JSON.stringify(data);
+      },
+      function(err){
+        console.log(err)
+      });
+  }
+}
