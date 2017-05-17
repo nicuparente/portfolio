@@ -1,0 +1,30 @@
+{
+  "name": "nicu-parente-portfolio",
+  "version": "1.0.0",
+  "description": "Nicu Parente professional portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicuparente/portfolio.git"
+  },
+  "keywords": [
+    "nicu",
+    "parente",
+    "portfolio",
+    "web",
+    "developer"
+  ],
+  "author": "Nicu Parente",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicuparente/portfolio/issues"
+  },
+  "homepage": "https://github.com/nicuparente/portfolio#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
