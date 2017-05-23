@@ -3,10 +3,7 @@ var app = app || {};
 
 (function (module) {
   function Project(rawProject) {
-    this.name = rawProject.name;
-    this.date = rawProject.date;
-    this.url = rawProject.url;
-    this.description = rawProject.description;
+    Object.keys(rawProject).forEach(key => this[key] = rawProject[key]);
   }
 
   Project.all = [];
