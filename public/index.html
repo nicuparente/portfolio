@@ -23,18 +23,18 @@
 
 
   <nav class="main-nav">
-    <div><a class="brand">NICU PARENTE</a></div>
+    <div><a href="/" class="brand">NICU PARENTE</a></div>
     <div class="fa fa-bars"></div>
     <ul>
-      <li><a href="#portfolio">PORTFOLIO</a></li>
-      <li><a href="#about">ABOUT</a></li>
+      <li><a href="/portfolio">PORTFOLIO</a></li>
+      <li><a href="/about">ABOUT</a></li>
       <!-- <li><a href="#">HOME</a></li> -->
     </ul>
   </nav>
 
 
   <main>
-    <section class="hero-splash-container">
+    <section id="home" class="hero-splash-container">
       <div class="hero-main-heading">
         I WRITE CODE!
       </div>
@@ -71,9 +71,16 @@
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
-  <script type="text/javascript" src="js/project.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/page.js/1.7.1/page.min.js"></script>
+  <script src="/scripts/model/project.js"></script>
+  <script src="/scripts/view/portfolioView.js"></script>
+  <script src="/scripts/view/homeView.js"></script>
+  <script src="/scripts/view/aboutView.js"></script>
+  <script src="/scripts/controller/aboutController.js"></script>
+  <script src="/scripts/controller/portfolioController.js"></script>
+  <script src="/scripts/controller/homeController.js"></script>
+  <script src="/scripts/controller/routes.js"></script>
   <script>
-    app.Project.populateProjects();
-    app.Project.stats();
+    app.PortfolioController.init();
   </script>
 </body>
