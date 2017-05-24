@@ -4,7 +4,6 @@ const PORT = 8080;
 
 app.use(express.static('./public'));
 
-
-app.listen(PORT, function(){
-    console.log('Listening in port:' + PORT);
+app.listen(PORT, function () {
+  console.log('Listening in port:' + PORT);
 })
