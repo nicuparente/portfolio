@@ -11,5 +11,6 @@ var app = app || {};
     location.href = '#portfolio';
   }
 
+  PortfolioController.init(app.PortfolioView.index);
   module.PortfolioController = PortfolioController;
 })(app);

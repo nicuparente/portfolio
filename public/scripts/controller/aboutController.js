@@ -6,7 +6,7 @@ var app = app || {};
   var AboutController = {};
 
   AboutController.nav = () => app.AboutView.index()
-  
+
   module.AboutController = AboutController;
 
 })(app);
