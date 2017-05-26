@@ -31,4 +31,11 @@
     width: 33%;
     height: 50%;
   }
+  
+  .github-stat{
+    display: block;
+  }
+  .connect-stats-container{
+    height: 60vh; 
+  }
 }
