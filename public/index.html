@@ -20,7 +20,9 @@
       <p class="project-description-body">{{description}}</p>
     </div>
   </script>
+  <script class="github-stats-template" type="text/x-handlebars-template">
 
+  </script>
 
   <nav class="main-nav">
     <div><a href="/" class="brand">NICU PARENTE</a></div>
@@ -46,9 +48,11 @@
       <article class="about-article">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel commodo purus. Cras sed nisl et purus posuere lacinia vel sed diam. Suspendisse potenti. Nullam vel dignissim neque. Maecenas semper augue eget lorem imperdiet, sodales volutpat lacus lacinia. Nullam id quam urna. Vestibulum eget magna quis enim lobortis porta et eget metus. Quisque sit amet tortor ac mauris sodales faucibus. Donec vel nisl nec elit hendrerit gravida aliquam ut lacus. Suspendisse lorem velit, porta a venenatis a, laoreet vitae nisi. Curabitur sit amet sodales enim, ac interdum tortor. Nulla sed auctor ex. Nunc mattis, erat eu pulvinar hendrerit, orci velit porttitor nunc, sed laoreet neque dui eget enim.
       </article>
+    </section>
 
-      <nav class="connect-wme-nav">
-        <h3>CONNECT WITH ME</h3>
+    <section class="connect-stats-container">
+      <h4 class="heading">CONNECT WITH ME</h4>
+        <nav class="connect-wme-nav">
         <ul>
           <li><a href="https://github.com/nicuparente" class="fa fa-github-alt" target="_blank"></a></li>
           <li><a href="https://www.linkedin.com/in/nicuparente" class="fa fa-linkedin-square" target="_blank"></a></li>
@@ -57,11 +61,14 @@
           <li><a href="#" class="fa fa-envelope"></a></li>
         </ul>
       </nav>
+      <div class="github-stats-container">
+        <div class="github-stat">REPOS: 0 </div>
+      </div>
     </section>
 
 
     <section id="portfolio" class="portfolio-container">
-          <h1 class="portfolio-heading">PORTFOLIO</h1>
+          <h1 class="heading">PORTFOLIO</h1>
     </section>
   </main>
 
@@ -72,10 +79,12 @@
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/page.js/1.7.1/page.min.js"></script>
+  <script src="/scripts/model/githubToken.js"></script>
   <script src="/scripts/model/project.js"></script>
   <script src="/scripts/view/portfolioView.js"></script>
   <script src="/scripts/view/homeView.js"></script>
   <script src="/scripts/view/aboutView.js"></script>
+  <script src="/scripts/model/repos.js"></script>
   <script src="/scripts/controller/aboutController.js"></script>
   <script src="/scripts/controller/portfolioController.js"></script>
   <script src="/scripts/controller/homeController.js"></script>

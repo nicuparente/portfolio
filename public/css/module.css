@@ -68,9 +68,9 @@
   width: 85vw;
   height: 60%;
   color: #FFF;
+  padding-bottom: 5vh;
   text-align: center;
   background-color: #2c579e;
-  border-radius: 4px;
 }
 
 .about-heading{
@@ -84,7 +84,8 @@
 .about-article{
   position: block;
   color:black;
-  margin-top: 10vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
   text-align: justify;
   background-color: #FFF;
   width: 60vw;
@@ -92,26 +93,53 @@
   padding: 1vw 1.5vh;
 }
 
+/*Connect Region*/
+.connect-stats-container{
+  display: block;
+  top: 20vh;
+  height: 35vh;
+  position: relative;
+  text-align: center;
+  background-color: #2c579e;
+}
+
 .connect-wme-nav{
   margin: .5vw 5vh;
 }
+
+/*GitHub Stat Region*/
+.github-stats-container{
+  display: block;
+  margin-top: 7vh;
+}
+
+.github-stat{
+  display: inline;
+  background: #FFF;
+  font-weight: 700;
+  font-size: 2em;
+  padding: 1%;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
 /*Portfolio Region*/
 .portfolio-container{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
-  top: 20vh;
+  top: 30vh;
   height: 70vh;
   width: 100%;
   background-color: #FFF;
 }
 
-.portfolio-heading {
+.heading {
   text-align: center;
   font-weight:bolder;
   width: 100%;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .project-container{
