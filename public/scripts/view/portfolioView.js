@@ -9,6 +9,6 @@ var app = app || {};
   PortfolioView.index = () => {
     $('.portfolio-container').append(app.Project.all.map(projectRender));
   }
-  
+
   module.PortfolioView = PortfolioView;
 })(app);

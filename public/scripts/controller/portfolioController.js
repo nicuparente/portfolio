@@ -7,8 +7,9 @@ var app = app || {};
   PortfolioController.init = () => {
     app.Project.getData(app.PortfolioView.index)
   }
-  PortfolioController.nav = () => {
+  PortfolioController.nav = (ctx, next) => {
     location.href = '#portfolio';
+    if(next) next();
   }
 
   PortfolioController.init(app.PortfolioView.index);
